@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "K68-CPUB-rescue")(type "KiCad")(uri "/Users/kuninet/git/MyProject/K68-CPUB/KiCAD/K68-CPUB-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "PUSH_SW")(type "Legacy")(uri "/Users/kuninet/git/MyProject/K68-CPUB/KiCAD/PUSH_SW.lib")(options "")(descr ""))
+  (lib (name "MC14536B")(type "Legacy")(uri "/Users/kuninet/git/MyProject/K68-CPUB/KiCAD/MC14536B.lib")(options "")(descr ""))
+  (lib (name "K68-VDG-rescue")(type "Legacy")(uri "/Users/kuninet/git/MyProject/K68-VDG/KiCAD/K68-VDG-rescue.lib")(options "")(descr ""))
+  (lib (name "MC6847-1372")(type "Legacy")(uri "/Users/kuninet/git/MyProject/K68-VDG/KiCAD/MC6847-1372.lib")(options "")(descr ""))
+)
