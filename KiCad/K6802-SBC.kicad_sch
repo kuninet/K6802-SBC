@@ -11485,16 +11485,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 77.47) (xy 233.68 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2597d035-4853-405b-b480-9f1679426622")
-	)
-	(wire
-		(pts
 			(xy 71.12 229.87) (xy 74.93 229.87)
 		)
 		(stroke
@@ -12345,6 +12335,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 83.82) (xy 243.84 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f1379b6-8da0-494b-a930-5af749344a42")
+	)
+	(wire
+		(pts
 			(xy 146.05 128.27) (xy 148.59 128.27)
 		)
 		(stroke
@@ -12412,16 +12412,6 @@
 			(type default)
 		)
 		(uuid "62c7ac5a-745e-49a1-a884-0ef567764984")
-	)
-	(wire
-		(pts
-			(xy 237.49 77.47) (xy 233.68 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62fdf2d9-0af6-44f7-b4bd-b61335737fe6")
 	)
 	(wire
 		(pts
@@ -12722,16 +12712,6 @@
 			(type default)
 		)
 		(uuid "7b865c7f-029d-405e-98ee-3c941911036d")
-	)
-	(wire
-		(pts
-			(xy 243.84 67.31) (xy 243.84 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ba44be8-62d5-4d0e-822d-2332ec052d72")
 	)
 	(wire
 		(pts
@@ -13505,16 +13485,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 77.47) (xy 259.08 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6cce464-3c7f-4e37-8553-5d5e1f55c57c")
-	)
-	(wire
-		(pts
 			(xy 341.63 85.09) (xy 347.98 85.09)
 		)
 		(stroke
@@ -13942,6 +13912,16 @@
 			(type default)
 		)
 		(uuid "d17cbd09-a116-4b36-a964-e1a3d26cee70")
+	)
+	(wire
+		(pts
+			(xy 247.65 77.47) (xy 259.08 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25ef043-5585-402e-b4f1-d7d57592bba2")
 	)
 	(wire
 		(pts
@@ -14425,6 +14405,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 57.15) (xy 243.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f137758d-f0ba-42a0-a900-5a6ea07002f8")
+	)
+	(wire
+		(pts
 			(xy 50.8 121.92) (xy 50.8 127)
 		)
 		(stroke
@@ -14714,7 +14704,7 @@
 		(uuid "177a1256-f955-4bae-835b-126e8d5c8a67")
 	)
 	(label "A14"
-		(at 243.84 67.31 270)
+		(at 243.84 57.15 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16542,7 +16532,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 34.29 189.23 0)
 			(effects
 				(font
@@ -16808,7 +16798,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_HC49-U_Vertical"
 			(at 88.9 148.59 0)
 			(effects
 				(font
@@ -17008,7 +16998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-28_W15.24mm"
+		(property "Footprint" "Package_DIP:DIP-28_W15.24mm_Socket"
 			(at 278.13 78.74 0)
 			(effects
 				(font
@@ -17157,7 +17147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 30.48 204.47 0)
 			(effects
 				(font
@@ -17262,7 +17252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 236.22 226.06 0)
 			(effects
 				(font
@@ -17329,7 +17319,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 285.75 217.17 0)
 			(effects
 				(font
@@ -17596,7 +17586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 96.52 234.95 0)
 			(effects
 				(font
@@ -17729,7 +17719,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 201.93 120.65 0)
 			(effects
 				(font
@@ -17984,7 +17974,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 233.68 81.28 0)
+		(at 243.84 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17992,7 +17982,7 @@
 		(dnp no)
 		(uuid "2ecaac64-388f-47cb-b0ed-3f74bfa244a6")
 		(property "Reference" "#PWR046"
-			(at 233.68 87.63 0)
+			(at 243.84 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18001,7 +17991,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 237.236 82.296 0)
+			(at 247.396 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18009,7 +17999,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 81.28 0)
+			(at 243.84 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18018,7 +18008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 81.28 0)
+			(at 243.84 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18027,7 +18017,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 81.28 0)
+			(at 243.84 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18141,7 +18131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 87.63 237.49 0)
 			(effects
 				(font
@@ -18209,7 +18199,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 173.99 166.37 0)
 			(effects
 				(font
@@ -18381,7 +18371,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 95.25 153.67 0)
 			(effects
 				(font
@@ -18527,7 +18517,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 49.53 189.23 0)
 			(effects
 				(font
@@ -18596,7 +18586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
 			(at 161.29 135.89 0)
 			(effects
 				(font
@@ -18707,7 +18697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-32_W15.24mm_Socket"
 			(at 259.08 157.48 0)
 			(effects
 				(font
@@ -18997,7 +18987,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 222.25 118.11 0)
 			(effects
 				(font
@@ -19103,7 +19093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
 			(at 257.81 227.33 0)
 			(effects
 				(font
@@ -19213,7 +19203,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 261.62 204.47 0)
 			(effects
 				(font
@@ -19282,7 +19272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-24_W15.24mm"
+		(property "Footprint" "Package_DIP:DIP-24_W15.24mm_Socket"
 			(at 331.47 176.53 0)
 			(effects
 				(font
@@ -19418,7 +19408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_A-405_P10.16mm_Horizontal"
 			(at 60.96 109.22 90)
 			(effects
 				(font
@@ -19504,7 +19494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 285.75 222.25 0)
 			(effects
 				(font
@@ -19638,7 +19628,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 334.01 111.76 0)
 			(effects
 				(font
@@ -19708,7 +19698,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 224.79 234.95 0)
 			(effects
 				(font
@@ -19842,7 +19832,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 157.48 184.15 0)
 			(effects
 				(font
@@ -20014,7 +20004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 50.8 119.38 0)
 			(effects
 				(font
@@ -20081,7 +20071,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 285.75 219.71 0)
 			(effects
 				(font
@@ -20347,7 +20337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal"
 			(at 368.3 162.56 0)
 			(effects
 				(font
@@ -20427,7 +20417,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
 			(at 63.5 243.586 0)
 			(effects
 				(font
@@ -20499,7 +20489,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 80.01 207.01 0)
 			(effects
 				(font
@@ -20868,7 +20858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" "Package_DIP:DIP-40_W15.24mm_Socket"
 			(at 110.49 154.94 0)
 			(effects
 				(font
@@ -21183,7 +21173,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_HC49-U_Vertical"
 			(at 229.87 229.87 0)
 			(effects
 				(font
@@ -21317,7 +21307,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 281.94 48.26 0)
 			(effects
 				(font
@@ -21385,7 +21375,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 262.89 129.54 0)
 			(effects
 				(font
@@ -21455,7 +21445,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 236.22 234.95 0)
 			(effects
 				(font
@@ -21591,7 +21581,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 83.82 153.67 0)
 			(effects
 				(font
@@ -21723,7 +21713,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 163.83 115.57 0)
 			(effects
 				(font
@@ -21792,7 +21782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 222.25 99.06 0)
 			(effects
 				(font
@@ -21963,7 +21953,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 96.52 241.3 90)
 			(effects
 				(font
@@ -22106,7 +22096,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 116.84 76.2 0)
 			(effects
 				(font
@@ -22241,7 +22231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 50.8 109.22 0)
 			(effects
 				(font
@@ -22573,7 +22563,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 240.03 99.06 0)
 			(effects
 				(font
@@ -22653,7 +22643,8 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_3_Bridged12")
-		(at 243.84 77.47 180)
+		(at 243.84 77.47 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -22661,7 +22652,7 @@
 		(dnp no)
 		(uuid "b2c9efd9-a2a8-42f8-9036-1f0eb4807019")
 		(property "Reference" "JP7"
-			(at 242.316 80.264 0)
+			(at 241.046 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22669,14 +22660,14 @@
 			)
 		)
 		(property "Value" "A14_JP"
-			(at 248.412 80.264 0)
+			(at 241.046 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 243.84 77.47 0)
 			(effects
 				(font
@@ -22746,7 +22737,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 201.93 96.52 0)
 			(effects
 				(font
@@ -23143,7 +23134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 80.01 191.77 0)
 			(effects
 				(font
@@ -23381,7 +23372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 66.04 120.65 0)
 			(effects
 				(font
@@ -23449,7 +23440,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 80.01 229.87 0)
 			(effects
 				(font
@@ -23516,7 +23507,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 285.75 214.63 0)
 			(effects
 				(font
@@ -23782,7 +23773,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 173.99 181.61 0)
 			(effects
 				(font
@@ -23888,7 +23879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 45.72 204.47 0)
 			(effects
 				(font
