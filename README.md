@@ -8,6 +8,10 @@
   * ROMは32kBタイプですが、ジャンパで2つの領域に分けて使用できます。
 * SBC6800のソフトを使えることを目指しました。
 
+## ブラウザで回路図などを確認
+* Kicadcanvas
+  * https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fkuninet%2FK6802-SBC%2Ftree%2Fmain%2FKiCad
+
 ## 参考
 * 以下の回路を参考にさせていただきました。ありがとうございます。
   * [SBC6800 ルーズキット (電脳伝説さん)](https://vintagechips.wordpress.com/2017/12/05/sbc6800%E3%83%AB%E3%83%BC%E3%82%BA%E3%82%AD%E3%83%83%E3%83%88/)
