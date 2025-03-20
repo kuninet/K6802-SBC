@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 14975)
+    (start_pass_no 678)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -69,17 +69,17 @@
     )
   )
   (class "kicad_default"
-    /~{RES} "Net-(U3-XTAL)" "Net-(U3-EXTAL)" "Net-(U6-Φ0)" "Net-(C10-Pad2)" "Net-(D2-A)" "Net-(SW1-A)" /D5
-    /~{NMI} /$A000 /A9 /A13 /R{slash}~{W} "unconnected-(J2-Pin_36-Pad36)" /A4 /D1
-    /A10 /$C000 /A0 /~{WR} /A11 "unconnected-(J2-Pin_32-Pad32)" /$8000 /~{IRQ}
-    /A7 /D3 /A12 /D7 /D6 /D4 /D2 "unconnected-(J2-Pin_34-Pad34)"
-    /D0 /A3 /E /$E000 /A14 /~{RD} /A8 /A2
-    /A1 /A6 /A15 /A5 "Net-(J3-Pin_6)" "Net-(J3-Pin_5)" "Net-(J3-Pin_4)" "Net-(J3-Pin_2)"
-    "unconnected-(J3-Pin_3-Pad3)" "Net-(JP1-B)" "Net-(JP2-B)" /SCLK "Net-(JP3-A)" "Net-(JP4-A)" "Net-(JP5-A)" "Net-(JP6-A)"
-    "Net-(JP7-A)" "Net-(U6-~{Φ1})" "unconnected-(RN1-R3-Pad4)" "unconnected-(RN1-R4-Pad5)" "Net-(RN2-R4)" "Net-(RN2-R2)" "unconnected-(U1-Pad11)" "Net-(U1-Pad5)"
-    "/~{ROM_CE}" "Net-(U2-Pad1)" "unconnected-(U2-Pad11)" "/~{RAM_DIABLE}" /VMA "unconnected-(U3-BA-Pad7)" "unconnected-(U4-O2-Pad13)" "unconnected-(U4-O0-Pad15)"
-    "unconnected-(U4-O3-Pad12)" "unconnected-(U4-O1-Pad14)" "unconnected-(U5-NC-Pad1)" "unconnected-(U6-~{Φ0}-Pad9)" "unconnected-(U6-Q13-Pad2)" "unconnected-(U6-Q9-Pad13)" "unconnected-(U6-Q12-Pad1)" "unconnected-(U6-Q14-Pad3)"
-    "unconnected-(U6-Q10-Pad15)" "unconnected-(U6-Q8-Pad14)"
+    /~{RES} "Net-(U3-XTAL)" "Net-(U3-EXTAL)" "Net-(U6-Φ0)" "Net-(D2-A)" "Net-(SW1-A)" /D5 /~{NMI}
+    /$A000 /A9 /A13 /R{slash}~{W} "unconnected-(J2-Pin_36-Pad36)" /A4 /D1 /A10
+    /$C000 /A0 /~{WR} /A11 "unconnected-(J2-Pin_32-Pad32)" /$8000 /~{IRQ} /A7
+    /D3 /A12 /D7 /D6 /D4 /D2 "unconnected-(J2-Pin_34-Pad34)" /D0
+    /A3 /E /$E000 /A14 /~{RD} /A8 /A2 /A1
+    /A6 /A15 /A5 "Net-(J3-Pin_6)" "Net-(J3-Pin_5)" "Net-(J3-Pin_4)" "Net-(J3-Pin_2)" "unconnected-(J3-Pin_3-Pad3)"
+    "Net-(JP1-B)" "Net-(JP2-B)" /SCLK "Net-(JP3-A)" "Net-(JP4-A)" "Net-(JP5-A)" "Net-(JP6-A)" "Net-(JP7-C)"
+    "Net-(U6-~{Φ1})" "Net-(JP8-B)" "unconnected-(RN1-R4-Pad5)" "Net-(RN2-R4)" "Net-(RN2-R2)" "Net-(U1-Pad11)" "Net-(U1-Pad5)" "/~{ROM_CE}"
+    "Net-(U2-Pad1)" "Net-(U2-Pad11)" "/RAM_DIABLE" /VMA "unconnected-(U3-BA-Pad7)" "unconnected-(U4-O2-Pad13)" "unconnected-(U4-O0-Pad15)" "unconnected-(U4-O3-Pad12)"
+    "unconnected-(U4-O1-Pad14)" "unconnected-(U5-NC-Pad1)" "unconnected-(U6-~{Φ0}-Pad9)" "unconnected-(U6-Q13-Pad2)" "unconnected-(U6-Q9-Pad13)" "unconnected-(U6-Q12-Pad1)" "unconnected-(U6-Q14-Pad3)" "unconnected-(U6-Q10-Pad15)"
+    "unconnected-(U6-Q8-Pad14)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
@@ -90,7 +90,7 @@
     )
   )
   (class BOLD
-    GND VCC
+    VCC GND
     (clearance_class BOLD)
     (via_rule BOLD)
     (rule
